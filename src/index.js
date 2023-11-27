@@ -3,17 +3,28 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Rolunk from './Public/Components/Home';
+import Home from './Public/Components/Home/Home';
+import Findclub from './Public/Components/Find club/Finclub';
+import Prices from './Public/Components/Prices/Prices';
+import Whycentral from './Public/Components/Whycentralstrength/Whycentral';
 
 const router = createBrowserRouter([
   {
     path: '/', 
-    element: <App />,
+    element: <Home />,
     errorElement: <div><h1>404 a keresett oldal nem talalhato</h1></div>
   },
   {
-    path: '/rolunk',  // http://localhost:3000/rolunk -> Rolunk component
-    element: <Rolunk />
+    path: '/findclub',  // http://localhost:3000/rolunk -> Rolunk component
+    element: <Findclub />
+  },
+  {
+    path: '/prices',  // http://localhost:3000/rolunk -> Rolunk component
+    element: <Prices />
+  },
+  {
+    path: '/whycentral',  // http://localhost:3000/rolunk -> Rolunk component
+    element: <Whycentral/>
   }
 ]);
 

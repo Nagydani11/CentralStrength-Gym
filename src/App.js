@@ -1,4 +1,4 @@
-function App() {
+export default function App() {
   return (
     <div className="App">
       hali
@@ -7,4 +7,4 @@ function App() {
 }
 
 
-export default App;
+
