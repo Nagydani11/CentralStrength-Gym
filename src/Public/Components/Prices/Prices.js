@@ -1,3 +1,4 @@
+import React from "react";
 import Priceingtable from "./Priceingtable";
 import PricesHero from "./PricesHero";
 import Pricesinfo from "./Pricesinfo";

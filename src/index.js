@@ -7,6 +7,7 @@ import Home from './Public/Components/Home/Home';
 import Findclub from './Public/Components/Find club/Finclub';
 import Prices from './Public/Components/Prices/Prices';
 import Whycentral from './Public/Components/Whycentralstrength/Whycentral';
+import Support from './Public/Components/Support/Support';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: '/whycentral',  // http://localhost:3000/rolunk -> Rolunk component
     element: <Whycentral/>
+  },
+  {
+    path:'/support',
+    element: <Support />
   }
 ]);
 
