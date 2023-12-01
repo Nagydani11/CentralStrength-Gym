@@ -1,9 +1,14 @@
 import React from "react"
+import Footer from "../Footer/Footer"
+import Header from "../Header/Header"
 export default function Home(){
     return (
-      <div>
-        <h2>Főoldal</h2>
-      </div>
+      <>
+        <Header />
+        <h1>Főoldal</h1>
+        <Footer />
+      </>
+      
     )
   }
   
