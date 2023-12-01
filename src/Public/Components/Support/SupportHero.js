@@ -1,5 +1,6 @@
 import React from "react";
 import supportheroimage from './images/supporthero.jpg'
+import './styles/supporthero.css'
 
 export default function Supporthero(){
     return(

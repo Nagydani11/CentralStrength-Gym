@@ -1,0 +1,17 @@
+.supportInfoBox h2{
+    color: #313136;
+    font-size: 32px;
+    line-height: 36px;
+    margin: 0 0 8px;
+}
+
+.supportWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.infotext p{
+    color: #313136;
+    font-size: 16px;
+    line-height: 28px;
+}
