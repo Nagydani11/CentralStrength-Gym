@@ -1,6 +1,8 @@
 import React from "react";
 import woman from './images/woman.webp';
 import man from './images/man.webp'
+import './styles/supporttrainers.css'
+
 
 export default function SupportTrainers(){
     return(
