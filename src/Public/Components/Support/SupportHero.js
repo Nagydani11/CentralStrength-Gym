@@ -1,9 +1,11 @@
 import React from "react";
+import supportheroimage from './images/supporthero.jpg'
 
 export default function Supporthero(){
     return(
         <div className="supporthero">
-            <h1>Fitness support</h1>
+            <img src={supportheroimage}/>
+            <h1>Fitness Support</h1>
         </div>
     )
 }
