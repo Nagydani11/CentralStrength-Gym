@@ -8,6 +8,7 @@ import Findclub from './Public/Components/Find club/Finclub';
 import Prices from './Public/Components/Prices/Prices';
 import Whycentral from './Public/Components/Whycentralstrength/Whycentral';
 import Support from './Public/Components/Support/Support';
+import Grouplessons from './Public/Components/Group lessons/GroupLessons';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path:'/support',
     element: <Support />
+  },
+  {
+    path:'/grouplessons',
+    element: <Grouplessons />
   }
 ]);
 

@@ -7,6 +7,7 @@ export default function Header(){
             <a href="/">Home</a>
             <a href="/prices">Prices</a>
             <a href="/support">Support</a>
+            <a href="/grouplessons">Group lessons</a>
         </div>
     )
 }
