@@ -2,6 +2,7 @@ import React from "react";
 import extras1 from './images/extras1.jpeg';
 import extras2 from './images/extras2.jpg';
 import extras3 from './images/extras3.jpeg';
+import './style/whycentralextras.css';
 
 
 export default function Whycentralextras(){

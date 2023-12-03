@@ -1,6 +1,6 @@
 import React from "react";
 import parttwoimage from './images/parttwo1.jpeg';
-
+import './style/whycentralpart2.css'
 
 export default function Whycentralparttwo(){
     return(

@@ -1,0 +1,20 @@
+.centralparttwo h3{
+    color: #313136;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.centralparttwowrap{
+    display: flex;
+}
+
+.centralparttwowrap img{
+    width: 50%;
+}
+
+.centralparttwowrap p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #313136;
+}

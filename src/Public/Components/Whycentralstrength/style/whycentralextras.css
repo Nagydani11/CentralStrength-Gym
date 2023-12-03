@@ -1,0 +1,13 @@
+.extras img{
+    width: 25%;
+}
+
+.extras h2{
+    font-size: 48px;
+    line-height: 52px;
+}
+
+
+.extraswrap{
+    display: flex;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import cardsone1 from './images/cardsone1.jpeg';
 import cardsone2 from './images/cardsone2.jpeg';
 import cardsone3 from './images/cardsone3.jpeg';
+import './style/whycentralcardsone.css';
 
 
 
