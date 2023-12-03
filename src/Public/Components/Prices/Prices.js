@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import Priceingtable from "./Priceingtable";
 import PricesHero from "./PricesHero";
 import Pricesinfo from "./Pricesinfo";
+import Orangebar from '/Users/daniel/Desktop/CentralStrength Gym/CentralStrength-Gym-1/src/Public/Components/Multipage component/Orangebar/Orangebar.js'
 
 export default function Prices(){
     return(
@@ -12,6 +13,7 @@ export default function Prices(){
             <PricesHero />
             <Priceingtable />
             <Pricesinfo />
+            <Orangebar />
             <Footer />
         </>
     )
