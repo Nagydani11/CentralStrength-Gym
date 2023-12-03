@@ -2,6 +2,7 @@ import React from "react";
 import glimage2 from './images/gl2.jpg';
 import glimage3 from './images/gl3.jpg';
 import glimage4 from './images/gl4.jpg';
+import './styles/groupcards.css';
 
 
 export default function GroupCards(){

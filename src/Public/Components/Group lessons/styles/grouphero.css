@@ -1,0 +1,18 @@
+.groupHero h1{
+    font-size: 80px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #2d2d2d;
+}
+
+
+.groupHero img{
+    max-width: 1440px;
+    height: 100%;
+}
+
+.groupHero p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #2d2d2d;
+}

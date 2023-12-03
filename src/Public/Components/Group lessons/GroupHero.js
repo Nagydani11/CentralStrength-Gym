@@ -1,5 +1,6 @@
 import React from "react";
 import groupimage from './images/gl1.jpg'
+import './styles/grouphero.css'
 
 export default function GroupHero(){
     return(

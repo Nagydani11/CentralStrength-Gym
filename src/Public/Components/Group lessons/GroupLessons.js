@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import GroupCards from "./GroupCards";
 import GroupHero from "./GroupHero";
 import GroupInfo from "./GroupInfo";
+import GroupSocialMedia from "./GroupSocialMedia";
 
 export default function Grouplessons(){
     return(
@@ -12,6 +13,7 @@ export default function Grouplessons(){
             <GroupHero />
             <GroupCards />
             <GroupInfo />
+            <GroupSocialMedia />
             <Footer />
         </>
     )
