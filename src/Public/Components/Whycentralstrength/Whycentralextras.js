@@ -1,4 +1,8 @@
 import React from "react";
+import extras1 from './images/extras1.jpeg';
+import extras2 from './images/extras2.jpg';
+import extras3 from './images/extras3.jpeg';
+
 
 export default function Whycentralextras(){
     return(
@@ -6,15 +10,15 @@ export default function Whycentralextras(){
             <h2>Extras</h2>
             <div className="extraswrap">
                 <div className="extrascard">
-                    <img />
+                    <img src={extras1}/>
                     <h4>Yanga sports water</h4>
                 </div>
                 <div className="extrascard">
-                    <img />
+                    <img src={extras2}/>
                     <h4>Personal coach</h4>
                 </div>
                 <div className="extrascard">
-                    <img />
+                    <img src={extras3}/>
                     <h4>Training intro</h4>
                 </div>
             </div>

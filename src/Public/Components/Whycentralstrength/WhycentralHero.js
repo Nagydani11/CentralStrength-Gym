@@ -1,5 +1,8 @@
 import React from "react";
 import centralheroimage from './images/central1.jpg';
+import './style/whycentralhero.css';
+
+
 
 export default function WhycentralHero(){
     return(

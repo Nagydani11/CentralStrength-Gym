@@ -1,5 +1,6 @@
 import React from "react";
 import partoneimage from "./images/partone1.jpeg";
+import './style/whycentralpart1.css';
 
 export default function Whycentralpartone(){
     return(

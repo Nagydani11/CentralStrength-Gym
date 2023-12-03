@@ -1,0 +1,14 @@
+.partone h3{
+    color: #313136;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.partonewrap{
+    display: flex;
+}
+
+.partonewrap img{
+    width: 50%;
+}
