@@ -1,0 +1,42 @@
+.titlewrap{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2d2d2d;
+}
+
+.titlewrap h4{
+    color: #fff;
+}
+
+.titleBuilding{
+    display: flex;
+    align-items: center;
+}
+
+
+.titleSport{
+    display: flex;
+    align-items: center;
+}
+
+.titleWeight{
+    display: flex;
+    align-items: center;
+}
+
+
+.titleGroup{
+    display: flex;
+    align-items: center;
+}
+
+
+.titleApp{
+    display: flex;
+    align-items: center;
+}
+
+
+#titleicon{
+    color:#72bbd6;
+}
