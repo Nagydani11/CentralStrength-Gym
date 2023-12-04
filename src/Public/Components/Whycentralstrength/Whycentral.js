@@ -1,5 +1,6 @@
 import React from "react"
 import Header from "../Header/Header"
+import Bicycle from "../Multipage component/Bicycle/Bicycle"
 import Goforit from "../Multipage component/Goforit/Goforit"
 import Orangebar from "../Multipage component/Orangebar/Orangebar"
 import Whycentralcardsone from "./Whycentralcardsone"
@@ -23,6 +24,7 @@ export default function Whycentral(){
             <Whycentralinfo />
             <Whycentralextras />
             <Goforit />
+            <Bicycle />
             <Orangebar />
         </>
     )
