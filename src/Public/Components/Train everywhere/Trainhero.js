@@ -1,5 +1,6 @@
 import React from "react";
 import trainhero from "./images/hero.jpg";
+import './style/trainhero.css'
 
 export default function Trainhero(){
     return(
