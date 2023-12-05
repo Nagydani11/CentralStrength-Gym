@@ -10,6 +10,7 @@ import Whycentral from './Public/Components/Whycentralstrength/Whycentral';
 import Support from './Public/Components/Support/Support';
 import Grouplessons from './Public/Components/Group lessons/GroupLessons';
 import Train from './Public/Components/Train everywhere/Train';
+import Registration from './Public/Components/Registration/Registration';
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
   {
     path:'/train',
     element: <Train />
+  },
+  {
+    path:'/registration',
+    element: <Registration />
   }
 ]);
 
