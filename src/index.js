@@ -11,6 +11,7 @@ import Support from './Public/Components/Support/Support';
 import Grouplessons from './Public/Components/Group lessons/GroupLessons';
 import Train from './Public/Components/Train everywhere/Train';
 import Registration from './Public/Components/Registration/Registration';
+import Login from './Public/Components/Login/Login';
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
   {
     path:'/registration',
     element: <Registration />
+  },
+  {
+    path:'/login',
+    element: <Login />
   }
 ]);
 

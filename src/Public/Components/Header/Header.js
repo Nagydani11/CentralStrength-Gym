@@ -29,6 +29,9 @@ export default function Header() {
 					<li>
 						<a href="/registration">Registration</a>
 					</li>
+					<li>
+						<a href="/login">Login</a>
+					</li>
 				</ul>
 			</div>
 		</>

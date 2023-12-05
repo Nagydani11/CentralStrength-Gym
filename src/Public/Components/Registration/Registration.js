@@ -39,7 +39,7 @@ export default function Registration(){
                             </form>
     
                             <p>
-                                Van már fiókod? Belépek
+                                Van már fiókod? <a href="/login">Belépek</a>
                             </p>
                         </div>
                     </div>
