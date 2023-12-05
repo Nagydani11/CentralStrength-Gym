@@ -1,0 +1,61 @@
+
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 6rem;
+    box-sizing: inherit;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.Footer{
+    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "info contactme"
+    "social social"
+    "copyright copyright";
+    justify-items: center;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+
+.Info{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-area: info;
+    justify-self: start;
+    width: 100%;
+}
+
+.ContactMe{
+    grid-area: contactme;
+    width: 100%;
+    align-self: center;
+}
+
+.Social{
+    grid-area: social;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3em;
+}
+
+.Copyright{
+    display: grid;
+    content: "\00A9 me";
+    grid-area: copyright;
+}

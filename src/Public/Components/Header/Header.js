@@ -8,7 +8,7 @@ export default function Header() {
 		<>
 			<div className="navbar">
 				<div className="logo">
-                    <img src={logoimage} />
+                    <a href="/"><img src={logoimage} /></a>
 				</div>
 				<ul className="links">
 					<li>
