@@ -8,6 +8,7 @@ import Homeheader from "./Homehero"
 import Homeclub from "./Homeclub"
 import Homecards from "./Homecards"
 import Homeapp from "./Homeapp"
+import Homefaq from "./Homefaq"
 
 export default function Home(){
     return (
@@ -18,6 +19,7 @@ export default function Home(){
         <Homeclub />
         <Homecards />
         <Homeapp/>
+        <Homefaq />
         <Goforit />
         <Orangebar />
         <Footer />
