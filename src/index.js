@@ -12,45 +12,94 @@ import Grouplessons from './Public/Components/Group lessons/GroupLessons';
 import Train from './Public/Components/Train everywhere/Train';
 import Registration from './Public/Components/Registration/Registration';
 import Login from './Public/Components/Login/Login';
+import Myapphome from './Private/Components/MyappHome/Myapphome';
+import Overview from './Private/Components/Overview/Overview';
+import Allin from './Private/Components/All in/Allin';
+import Layout from './Public/Layout/Layout';
+import Myapplayout from './Private/MyappLayout/Myapplayout';
+import Membership from './Private/Components/Membership/Membership';
+import Payments from './Private/Components/Payments/Payments';
+import Myinformation from './Private/Components/Myinformation/Myinformation';
+import Visits from './Private/Components/Visits/Visits';
 
 const router = createBrowserRouter([
   {
     path: '/', 
-    element: <Home />,
-    errorElement: <div><h1>404 a keresett oldal nem talalhato</h1></div>
+    element: <Layout />,
+    errorElement: <div><h1>404 a keresett oldal nem talalhato</h1></div>,
+    children: [
+      {
+        path: '/',
+        element: <Home />
+      },
+      {
+        path: '/findclub',
+        element: <Findclub />
+      },
+      {
+        path: '/prices',
+        element: <Prices />
+      },
+      {
+        path: '/whycentral',
+        element: <Whycentral />
+      },
+      {
+        path: '/support',
+        element: <Support />
+      },
+      {
+        path: '/grouplessons',
+        element: <Grouplessons />
+      },
+      {
+        path: '/train',
+        element: <Train />
+      },
+      {
+        path: '/registration',
+        element: <Registration />
+      },
+      {
+        path: '/login',
+        element: <Login />
+      }
+    ],
   },
   {
-    path: '/findclub',  // http://localhost:3000/rolunk -> Rolunk component
-    element: <Findclub />
+    path: "/myapp",
+    element: <Myapplayout />,
+    children: [
+      {
+        path: '/myapp',
+        element:<Myapphome />
+      },
+      {
+        path: '/myapp/overview',
+        element: <Overview />
+      },
+      {
+        path: '/myapp/allin',
+        element: <Allin />
+      },
+      {
+        path: '/myapp/membership',
+        element: <Membership />
+      },
+      {
+        path: '/myapp/payments',
+        element: <Payments />
+      },
+      {
+        path: '/myapp/myinformation',
+        element: <Myinformation />
+      },
+      {
+        path: '/myapp/visits',
+        element: <Visits />
+      }
+    ]
   },
-  {
-    path: '/prices',  // http://localhost:3000/rolunk -> Rolunk component
-    element: <Prices />
-  },
-  {
-    path: '/whycentral',  // http://localhost:3000/rolunk -> Rolunk component
-    element: <Whycentral/>
-  },
-  {
-    path:'/support',
-    element: <Support />
-  },
-  {
-    path:'/grouplessons',
-    element: <Grouplessons />
-  },
-  {
-    path:'/train',
-    element: <Train />
-  },
-  {
-    path:'/registration',
-    element: <Registration />
-  },
-  {
-    path:'/login',
-    element: <Login />
-  }
 ]);
 
 
@@ -60,5 +109,6 @@ root.render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
+
 
 

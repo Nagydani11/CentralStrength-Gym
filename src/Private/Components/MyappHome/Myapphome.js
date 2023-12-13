@@ -1,11 +1,11 @@
 import React from "react";
 import Myappnav from "../Header/Myappnav";
 
-export default function Membership(){
+export default function Myapphome(){
     return(
         <>
             <Myappnav />
-            <h1>Membership</h1>
+            <h1>My app home page</h1>
         </>
     )
 }
