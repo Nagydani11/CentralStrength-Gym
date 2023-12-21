@@ -1,11 +1,16 @@
 import React from "react";
 import Myappnav from "../Header/Myappnav";
+import Paymenthero from "./Paymentshero";
+import Paymentsinfo from "./Paymentsinfo";
+import Paymentsupcoming from "./Paymentsupcoming";
 
 export default function Payments(){
     return(
         <>
             <Myappnav />
-            <h1>Payments</h1>
+            <Paymenthero/>
+            <Paymentsinfo />
+            <Paymentsupcoming />
         </>
     )
 }
