@@ -1,11 +1,14 @@
 import React from "react";
 import Myappnav from "../Header/Myappnav";
+import Visitsdata from "./Visitsdata";
+import Visitshero from "./Visitshero";
 
 export default function Visits(){
     return(
         <>
             <Myappnav />
-            <h1>Visits</h1>
+            <Visitshero />
+            <Visitsdata />
         </>
     )
 }
