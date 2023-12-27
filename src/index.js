@@ -72,11 +72,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/myapp',
-        element:<Myapphome />
-      },
-      {
-        path: '/myapp/overview',
-        element: <Overview />
+        element:<Overview />
       },
       {
         path: '/myapp/allin',

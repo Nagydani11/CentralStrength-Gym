@@ -10,7 +10,7 @@ export default function Myappnav(){
                     </div>
                     <ul className="links">
                         <li>
-                            <a href="/myapp/overview">Overview</a>
+                            <a href="/myapp/">Overview</a>
                         </li>
                         <li>
                             <a href="/myapp/allin">Allin</a>
