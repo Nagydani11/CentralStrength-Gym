@@ -4,7 +4,7 @@ import Header from "../Header/Header";
 import Supporthero from "./SupportHero";
 import SupportInfo from "./SupportInfo";
 import SupportTrainers from "./SupportTrainers";
-import Orangebar from '/Users/daniel/Desktop/CentralStrength Gym/CentralStrength-Gym-1/src/Public/Components/Multipage component/Orangebar/Orangebar.js'
+import Orangebar from '../Multipage component/Orangebar/Orangebar'
 
 export default function Support(){
     return(

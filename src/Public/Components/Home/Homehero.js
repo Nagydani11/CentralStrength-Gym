@@ -1,14 +1,12 @@
 import React from "react";
+import '../Home/styles/homehero.css'
 
 export default function Homeheader(){
     return(
         <div className="homeheader">
-            <h1>Sport</h1>
-            <h1>Temporarily</h1>
-            <h1>From</h1>
-            <h1>19,99</h1>
-            <a>Word lid</a>
-            <h3>Including a sports bag</h3>
+            <h1>Sport 5 week</h1>
+            <h1>for free</h1>
+            <button>Subscribe now</button>
         </div>
     )
 }
