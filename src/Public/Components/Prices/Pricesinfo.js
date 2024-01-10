@@ -6,10 +6,10 @@ export default function Pricesinfo(){
         <div className="pricesinfo">
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
             <h3>COMPLETE YOUR MEMBERSHIP</h3>
-            <p>We want your training to be tailored to your preferences so you can achieve your goals! In most clubs we have 3 extras to optimize your workout:</p>
-            <p><span class="material-symbols-outlined">done</span>Yanga Sports Water: Sugar-free ice-cold sports water before, after or during your workout</p>
-            <p><span class="material-symbols-outlined">done</span>Personal Online Coach: Get fit and challenge yourself with 1 of our personal trainers in the app</p>
-            <p><span class="material-symbols-outlined">done</span>Personal Training Intro: Get off to a flying start with 1 of our Personal Trainers</p>
+            <p id="info">We want your training to be tailored to your preferences so you can achieve your goals! In most clubs we have 3 extras to optimize your workout:</p>
+            <p id="infoLine"><span class="material-symbols-outlined" id="orangeIcon">done</span>Yanga Sports Water: Sugar-free ice-cold sports water before, after or during your workout</p>
+            <p id="infoLine"><span class="material-symbols-outlined" id="orangeIcon">done</span>Personal Online Coach: Get fit and challenge yourself with 1 of our personal trainers in the app</p>
+            <p id="infoLine"><span class="material-symbols-outlined" id="orangeIcon">done</span>Personal Training Intro: Get off to a flying start with 1 of our Personal Trainers</p>
             <p>View our extras below to make your workout even better!</p>
 
             <h3>A FLEXIBLE MEMBERSHIP</h3>

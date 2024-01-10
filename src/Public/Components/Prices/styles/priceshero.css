@@ -1,3 +1,18 @@
+.herowrap{
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 65px 84px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
 .hero img{
     width: 100%;
     height: 100%;
@@ -20,4 +35,33 @@
     text-transform: uppercase;
     text-decoration: none;
     
+}
+
+.hero h1{
+    font-size: 80px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+
+.heroright{
+    background-color: #fff;
+    padding: 46px 40px 0 78px;
+    position: relative;
+    top: 370px;
+    left: 600px;
+}
+
+.heroright h3{
+    color: #fe7000;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.heroright h2{
+    color: #313136;
+    font-size: 28px;
+    line-height: 30px;
+    text-transform: uppercase;
 }
