@@ -1,7 +1,18 @@
 import React from "react";
-import logoimg from '../../../Public/Components/Header/logo.webp'
+import logoimg from '../../../Public/Components/Header/logo.webp';
+import { signOut } from "firebase/auth";
+import { database } from "../../../FirebaseConfig";
+import { useNavigate } from "react-router-dom";
 
 export default function Myappnav(){
+        const history = useNavigate()
+
+        const handleClick = ()=>{
+            signOut(database).then(val =>{
+                console.log(val,'val')
+                history('/')
+            })
+        }
         return (
             <>
                 <div className="navbar">
@@ -27,9 +38,7 @@ export default function Myappnav(){
                         <li>
                             <a href="/myapp/visits">Visits</a>
                         </li>
-                        <li>
-                            <a href="/">Kilépés szimuláció</a>
-                        </li>
+                        <button onClick={handleClick}>SignOut</button>
                     </ul>
                 </div>
             </>
